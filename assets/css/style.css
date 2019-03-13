@@ -1,0 +1,29 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #376385;
+  color: #d2d7da;
+  font-size: 2em;
+}
+h1 {
+  color: #ffffff;
+}
+.fas {
+  font-size: 2.5em;
+}
+.card-title {
+  background-color: #6e9bbd;
+  color: #ffffff;
+  padding: 2em;
+}
+
+#add-train-button {
+  background-color: #376385;
+  color: #d2d7da;
+}
