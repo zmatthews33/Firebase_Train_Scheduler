@@ -7,6 +7,12 @@
     <title>Train Scheduler</title>
     <link
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
@@ -14,13 +20,6 @@
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -99,19 +98,20 @@
                   ></textarea>
                 </div>
               </form>
-              <button
-                id="add-train-button"
-                type="button"
-                class="btn btn-success"
-              >
-                Submit
-              </button>
+              <div class="add-train-button">
+                <button
+                  id="add-train-button"
+                  type="button"
+                  class="btn btn-primary"
+                >
+                  Submit
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -130,6 +130,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
-    <script src="assets/javascript/app.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
